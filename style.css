@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 10px;
+}
+
+.navigation a {
+    color: seashell;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation a:hover {
+    font-size: 25px;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/* Mission Styles */
+.mission {
+    height: 700px;
+    max-width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*tq5wn1*_ga*NjU4MzEwNDIxOC4xNjU2OTQxNTEy*_ga_3LRZM6TM9L*MTY2MTU2NjI2Ni4xMTUuMS4xNjYxNTY5MjE5LjU0LjAuMA..');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+}
+
+.goals {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+/* Tea of the Month */
+.steeping {
+    margin: 80px auto 30px auto;
+}
+
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend-teas img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 15px;
+}
+
+/* Locations */
+.locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*12cts16*_ga*NjU4MzEwNDIxOC4xNjU2OTQxNTEy*_ga_3LRZM6TM9L*MTY2MTU3NDU4NS4xMTYuMS4xNjYxNTc0NjEwLjM1LjAuMA..');
+    height: 500px;
+    max-width: 1200px;
+    margin: 80px auto auto auto;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.locations h2 {
+    margin: 0px;
+    padding-top: 69px;
+    padding-bottom: 15px;
+}
+
+.address-container {
+   display: flex;
+   justify-content: center;
+}
+
+.address {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: column;
+    opacity: 0.7;
+}
+
+/* Contact */
+.contact {
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
